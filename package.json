@@ -1,0 +1,33 @@
+{
+  "name": "recaman-generator",
+  "version": "1.0.0",
+  "description": "Recaman sequence generator and visalizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "esbuild src/app.tsx --outdir=www/js --bundle  --servedir=www",
+    "watch": "esbuild src/app.tsx --outdir=www/js --bundle  --servedir=www --watch"
+  },
+  "author": "Peter Steinbach",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "fs": "^0.0.1-security",
+    "live-server": "^1.2.2",
+    "pts": "^0.12.9",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "esbuild": "0.24.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "ts-jest": "^29.2.5",
+    "typescript-eslint": "^8.13.0"
+  }
+}
