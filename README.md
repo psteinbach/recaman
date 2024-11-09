@@ -1,6 +1,6 @@
-# Recamàman Sequence Generator
+# Recamàn Sequence Generator
 
-This service generates squggily images based on a generated Recamàman Sequence. Generator is custom. 
+This service generates squggily images based on a generated Recamàn Sequence. Generator is custom. 
 Useful for people who can't decide on a LinkedIn Profile Banner 
 
 # Dependecies
